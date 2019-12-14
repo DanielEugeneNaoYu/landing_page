@@ -14,9 +14,26 @@ class Videos extends Component {
           <div className="video">
 
               <div>
-                  <h1>hello</h1>
+                  <h1>Videos</h1>
               </div>
 
+            <Player
+            ref={c => {
+                this.player = c;
+            }}
+            playsInline
+            >
+            <ControlBar>
+                <PlaybackRateMenuButton order={7} rates={[2, 1.5, 1.0, 0.5]} />
+            </ControlBar>
+            <source
+                src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                type="video/mp4"
+                />
+            </Player>
+                <br/>
+                <br/>
+                <br/>
             <Player
             ref={c => {
                 this.player = c;
