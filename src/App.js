@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./components/Header";
 import About from "./components/About";
 import Videos from "./components/Videos";
+import QR from "./components/QR";
 
 
 class App extends React.Component {
@@ -10,8 +11,9 @@ class App extends React.Component {
     return (
       <div className="App">
           <Header />
-          <Videos/ >
-          <About/ >
+          <QR />
+          <Videos />
+          <About />
         </div>
     )
   }
