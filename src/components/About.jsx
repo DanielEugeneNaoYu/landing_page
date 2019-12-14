@@ -5,16 +5,33 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <section id="about">
-                <div className="row">
-                    <div className="three columns">
-                        {/* <img className="profile-pic" src={image} alt="" /> */}
-                    </div>
-                    <div className="nine columns main-col">
-                        <h2>About</h2>
-                    </div>
+            <div id="about">
+                <div id="title">
+                    <h1>What is duelingo?</h1>
                 </div>
-            </section>
+                <div>
+                    <h2>Fighting Game!</h2>
+                </div>
+                <div>
+                    <p>explanation about game explanation about gameexplanation about gameexplanation about gameexplanation about gameexplanation about gameexplanation about gameexplanation about game</p>
+                </div>
+
+
+                <div>
+                    <h2>Review and Learning communitypage!</h2>
+                </div>
+                <div>
+                    <p>explanation about flashcards explanation about flashcardsexplanation about flashcardsexplanation about flashcardsexplanation about flashcardsexplanation about flashcardsexplanation about flashcardsexplanation about flashcards</p>
+                </div>
+
+
+                <div>
+                    <h2>Community Page</h2>
+                </div>
+                <div>
+                    <p>explanation about communitypage explanation about communitypageexplanation about communitypageexplanation about communitypageexplanation about communitypageexplanation about communitypageexplanation about communitypageexplanation about communitypage</p>
+                </div>
+            </div>
         );
     }
 }
