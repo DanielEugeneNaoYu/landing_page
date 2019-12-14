@@ -10,7 +10,13 @@ class Videos extends Component {
     }
     render() {
       return (
- 
+           
+          <div className="video">
+
+              <div>
+                  <h1>hello</h1>
+              </div>
+
             <Player
             ref={c => {
                 this.player = c;
@@ -23,8 +29,11 @@ class Videos extends Component {
             <source
                 src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
                 type="video/mp4"
-            />
+                />
             </Player>
+
+          </div>
+ 
         
       );
     }
