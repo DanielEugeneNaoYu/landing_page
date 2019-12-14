@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import { Player, ControlBar, PlaybackRateMenuButton } from "video-react";
 import "video-react/dist/video-react.css"; // import css
@@ -22,6 +21,7 @@ class Videos extends Component {
                 this.player = c;
             }}
             playsInline
+            autoPlay='true'
             >
             <ControlBar>
                 <PlaybackRateMenuButton order={7} rates={[2, 1.5, 1.0, 0.5]} />
@@ -39,6 +39,7 @@ class Videos extends Component {
                 this.player = c;
             }}
             playsInline
+            autoPlay='true'
             >
             <ControlBar>
                 <PlaybackRateMenuButton order={7} rates={[2, 1.5, 1.0, 0.5]} />
