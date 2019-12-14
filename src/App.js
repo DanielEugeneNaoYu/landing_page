@@ -11,9 +11,9 @@ class App extends React.Component {
     return (
       <div className="App">
           <Header />
-          <QR/ >
-          <Videos/ >
-          <About/ >
+          <QR />
+          <Videos />
+          <About />
         </div>
     )
   }
