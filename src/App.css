@@ -5,8 +5,10 @@
 /* Header */
 #header{
   width: 100%;
-  padding-bottom: 50%;
-  background-position: center;
+  height: 50vh;
+  /* padding-bottom: 50%; */
+  background-position: top;
+  background-size: cover;
 }
 
 
