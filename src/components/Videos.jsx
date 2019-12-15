@@ -10,7 +10,7 @@ class Videos extends Component {
     render() {
       return (
            
-          <div className="video">
+          <div className="video" id="videos">
 
               <div>
                   <h1>Videos</h1>

@@ -2,8 +2,6 @@ import React from 'react';
 import Background from '../images/duelingo.jpg'
 
 const imageStyle = {
-    // width: "100%",
-    // height:"40vh",
     backgroundImage: `url(${Background})`
 }
 
