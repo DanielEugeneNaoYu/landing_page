@@ -7,7 +7,7 @@ class QR extends React.Component{
         return (
 
             <div id='qrs'>
-                <h1>Available now</h1>
+                <h1 id="qrtitile">Available now</h1>
 
                 <div className='qrContainer'>
                 <h3>duelingo game</h3>    
