@@ -1,5 +1,7 @@
 .App {
  text-align: center;
+ margin: 0%;
+ padding: 0;
 }
 
 /* Header */
@@ -9,6 +11,20 @@
   /* padding-bottom: 50%; */
   background-position: top;
   background-size: cover;
+  position: relative;
+}
+
+.banner-text{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-size: 5vh;
+}
+.banner-text > h1,h3 {
+  margin: 0;
+  /* font-family: ; */
 }
 
 
