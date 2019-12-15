@@ -93,6 +93,27 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   border-bottom-color: #b2ddf0;
 }
 
+
+/* about */
+#about{
+  margin: 0;
+}
+
+#title > h1{
+    margin: 0;
+    padding:10vh;
+}
+
+.points > h2 {
+  margin: 0;
+  padding: 6vh;
+}
+
+
+.points > p {
+  margin: 0;
+  padding: 2vh 0 8vh 0
+}
 /* 
 background:
 linear-gradient(27deg, #89d0e6 5px, transparent 5px) 0 5px,
