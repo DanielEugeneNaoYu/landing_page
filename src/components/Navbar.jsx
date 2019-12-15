@@ -18,7 +18,6 @@ class Navbar extends React.Component{
                     <p className='inline-block-element'>About</p>
                 </AnchorLink>
             </div>
-
         );
     }
 }
