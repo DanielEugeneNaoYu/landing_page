@@ -6,7 +6,7 @@ class Navbar extends React.Component{
         return(
             <div id="navbar">
                 <AnchorLink href="">
-                    <p className='inline-block-element'>I am Navbar</p>
+                    <p className='inline-block-element'>Home</p>
                 </AnchorLink>
                 <AnchorLink href="#qrs">
                     <p className='inline-block-element'>Downloads</p>
