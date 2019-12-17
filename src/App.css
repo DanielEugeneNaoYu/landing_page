@@ -29,7 +29,7 @@
   background-size: cover;
   position: relative;
   margin: 0;
-  margin-bottom: -20px;
+  margin-bottom: -42px;
 }
 
 .banner-text{
@@ -51,7 +51,7 @@
 #qrs {
   padding-bottom: 13vh;
   background-color: #dbe5e5;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%2370bad6' fill-opacity='0.95'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+/* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%2370bad6' fill-opacity='0.95'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E"); */
 }
 
 .qr{
@@ -60,9 +60,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 #qrs > h1 {
-  padding: 8vh 0 5vh 0;
+  padding: 8vh 0 8vh 0;
+  font-size: 5vh;
 }
-
 
 .qrContainer{
   margin: 5%;
@@ -73,15 +73,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .qrContainer > h3 {
   padding-bottom: 6vh;
+  font-size: 4vh;
 }
 
  #qrtitile {
   position: relative;
   padding: 0.35em 0.5em;
-  background: #b6e9ff;
-  color: #393939;
+  background: #67eeba;
+  color: black;
+  font-size: 6vh;
 }
-#qrtitile :before {
+/* #qrtitile :before {
   content: " ";
   position: absolute;
   top: -16px;
@@ -91,8 +93,43 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   height: 0;
   border: solid 8px transparent;
   border-bottom-color: #b2ddf0;
+} */
+
+
+
+
+/* videos */
+#videoTitle > h1 {
+  padding: 8vh 0 8vh 0;
+  font-size: 5vh;
 }
 
+
+
+/* about */
+#about{
+  margin: 0;
+}
+
+#title > h1{
+    margin: 0;
+    padding:10vh;
+    padding: 8vh 0 8vh 0;
+    font-size: 5vh;
+    background-color: tomato;
+    color: white;
+}
+
+.points > h2 {
+  margin: 0;
+  padding: 6vh;
+}
+
+
+.points > p {
+  margin: 0;
+  padding: 2vh 0 8vh 0
+}
 /* 
 background:
 linear-gradient(27deg, #89d0e6 5px, transparent 5px) 0 5px,

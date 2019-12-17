@@ -12,7 +12,7 @@ class Videos extends Component {
            
           <div className="video" id="videos">
 
-              <div>
+              <div id="videoTitle">
                   <h1>Videos</h1>
               </div>
 
