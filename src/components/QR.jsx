@@ -1,5 +1,6 @@
 import React from 'react';
-import qr from '../images/dummy.png'
+import qr1 from '../images/dummy.png'
+import qr2 from '../images/QR-for-Flashcards.png'
 
 
 class QR extends React.Component{
@@ -11,12 +12,12 @@ class QR extends React.Component{
 
                 <div className='qrContainer'>
                 <h3>Let's play game!</h3>    
-                <img className='qr' src={qr} alt="dummy_QR"/>
+                <img className='qr' src={qr1} alt="game"/>
                 </div>
 
                 <div className='qrContainer'>
                 <h3>Review with flashcards!</h3>    
-                <img className='qr' src={qr} alt="dummy_QR"/>
+                <img className='qr' src={qr2} alt="flashcards"/>
                 </div>
 
                
