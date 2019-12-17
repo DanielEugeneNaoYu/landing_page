@@ -15,7 +15,7 @@ class Header extends React.Component {
 
                 <div className="row banner">
                         <div className="banner-text">
-                            <h1 className="responsive-headline">duelingo</h1>
+                            <h1 className="responsive-headline">LEXIVERSE</h1>
                             <h3>Knowledge is power</h3>
                         </div>
                     </div>
