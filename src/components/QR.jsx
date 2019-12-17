@@ -1,6 +1,6 @@
 import React from 'react';
 import qr1 from '../images/dummy.png'
-import qr2 from '../images/QR-for-Flashcards.png'
+import qr2 from '../images/flashcards.png'
 
 
 class QR extends React.Component{
