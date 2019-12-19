@@ -1,11 +1,16 @@
 import React from 'react'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+
 
 class Twitter extends React.Component {
     render(){
         return(
                 <div id="twitterContainer">
-                    <a class="twitter-timeline" href="https://twitter.com/home?ref_src=twsrc%5Etfw">Tweets by home</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+                     <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="lexi_verse"
+                        options={{width: 570, height: 400}}
+                     />
                 </div>
         );
     }
