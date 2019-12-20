@@ -5,6 +5,7 @@ import About from "./components/About";
 import Videos from "./components/Videos";
 import QR from "./components/QR";
 import Navbar from "./components/Navbar";
+import Twitter from "./components/Twitter";
 
 
 class App extends React.Component {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <Header />
         <QR />
         <Videos />
+        <Twitter />
         <About />
       </div>
     )
