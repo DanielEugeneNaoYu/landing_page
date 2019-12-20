@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Player, ControlBar, PlaybackRateMenuButton } from "video-react";
 import "video-react/dist/video-react.css"; // import css
 
-class Videos extends Component {
+class Videos extends React.Component {
     componentDidMount() {
       this.player.playbackRate = 1;
       this.forceUpdate();
