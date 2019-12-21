@@ -110,6 +110,10 @@ background-repeat:no-repeat;
 }
 
 /* videos */
+
+#videoTitle{
+  width: 100%;
+}
 #videoTitle > h1 {
   background: rgb(229, 243, 30);;
   color: navy;
@@ -122,6 +126,8 @@ background-repeat:no-repeat;
 
 #game_video {
   width: 80%;
+  margin: 4vh;
+  border-radius: 10px;
 }
 
 
@@ -129,6 +135,7 @@ background-repeat:no-repeat;
 
 #flashcard_video{
   width: 30%;
+  margin-top: 3vh;
 }
 
 
