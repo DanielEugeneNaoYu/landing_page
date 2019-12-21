@@ -1,6 +1,6 @@
 import React from 'react';
 import qr1 from '../images/dummy.png'
-import qr2 from '../images/flashcards.png'
+import qr2 from '../images/googleplay_qr.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Flexbox from 'flexbox-react';
 
@@ -15,7 +15,7 @@ class QR extends React.Component{
                 <h1 id="qrtitile">Available now</h1>
         
 
-            <Flexbox justifyContent="space-around">
+            <Flexbox justifyContent="center">
                 <div className='qrContainer'>
                     <h3>GAME</h3>    
                     <img className='qr' src={qr1} alt="game"/>
