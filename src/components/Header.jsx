@@ -1,5 +1,8 @@
 import React from 'react';
-import Background from '../images/duelingo.jpg'
+// import Img from 'react-image'
+import Background from '../images/space.jpg'
+import logo from '../images/logo_white.png'
+
 
 const imageStyle = {
     backgroundImage: `url(${Background})`
@@ -13,10 +16,7 @@ class Header extends React.Component {
             <div id="header" style={imageStyle}>
                 <header id="home">
                 <div className="row banner">
-                        <div className="banner-text">
-                            <h1 className="responsive-headline">LEXIVERSE</h1>
-                            <h3>Knowledge is power</h3>
-                        </div>
+                <img src={logo} alt="logo" />
                     </div>
                     <p className="scrolldown">
                         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
