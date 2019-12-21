@@ -1,3 +1,11 @@
+body{
+  background:
+  linear-gradient(to bottom left,transparent 49.8%,#E0E6E5 50%) top   /100% 35%,
+  linear-gradient(to top    left,transparent 49.8%,#E0E6E5 50%) bottom/100% 35%,
+  linear-gradient(rgb(230, 226, 224),#E0E6E5) center/100% 30%;
+background-repeat:no-repeat;
+}
+
 .App {
  text-align: center;
  margin: 0%;
@@ -10,14 +18,16 @@
 /* Navbar */
 #navbar{
   /* margin-bottom: -15px; */
-  background-color: rgba(48, 228, 228, 0.678);
+  /* background-color: rgba(48, 228, 228, 0.678); */
+  background-color: rgb(59, 5, 146);
   font-family: pokemon;
 }
 
 .inline-block-element{
   display: inline-block;      
   padding: 2px 40px;
-  color: rgb(107, 9, 172);
+  /* color: rgb(107, 9, 172); */
+  color: rgb(229, 243, 30);
   font-weight: normal;
   font-size: 2vh;
 }
@@ -52,7 +62,7 @@
 /* QR */
 #qrs {
   padding-bottom: 13vh;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .qr{
@@ -61,8 +71,8 @@
 }
 
 #qrs > h1 {
-  padding: 4vh 0 3vh 0;
-  font-size: 4vh;
+  padding: 2vh 0 1.5vh 0;
+  font-size: 2.5vh;
 }
 
 .qrContainer{
@@ -80,8 +90,8 @@
  #qrtitile {
   margin: 0;
   position: relative;
-  background: rgba(48, 228, 228, 0.678);;
-  color: black;
+  background: rgb(229, 243, 30);;
+  color: navy;
   font-family: pokemon;
 }
 
@@ -94,14 +104,18 @@
   font-size: 3vh;
 }
 
-
-
+#googleplay_logo {
+  width: 30vh;
+}
 
 /* videos */
 #videoTitle > h1 {
-  padding: 8vh 0 8vh 0;
-  font-size: 5vh;
+  background: rgb(229, 243, 30);;
+  color: navy;
+  padding: 2vh 0 1.5vh 0;
+  font-size: 2.5vh;
   font-family: pokemon;
+  margin-bottom: 0;
 }
 
 #flashcard_video_container{
@@ -133,13 +147,12 @@
 }
 
 #title > h1{
-    margin: 0;
-    padding:10vh;
-    padding: 8vh 0 8vh 0;
-    font-size: 5vh;
-    background-color:rgba(48, 228, 228, 0.678);;
-    color: white;
-    font-family: pokemon;
+  background: rgb(229, 243, 30);;
+  color: navy;
+  padding: 3vh 0 1.8vh 0;
+  font-size: 2.5vh;
+  font-family: pokemon;
+  margin-bottom: 0;
 }
 
 .points > h2 {
