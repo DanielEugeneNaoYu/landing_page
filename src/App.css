@@ -60,11 +60,6 @@ background-repeat:no-repeat;
 
 
 /* QR */
-#qrs {
-  /* padding-bottom: 13vh; */
-  /* background-color: white; */
-}
-
 .qr{
   width: 30vh;
   height: 30vh;
@@ -118,26 +113,22 @@ background-repeat:no-repeat;
 #videoTitle > h1 {
   background: rgb(229, 243, 30);;
   color: navy;
-  padding: 2vh 0 1.5vh 0;
+  padding: 4vh 0 2vh 0;
   font-size: 2.5vh;
   font-family: pokemon;
   margin-bottom: 0;
 }
 
-#flashcard_video_container{
-  position: relative;
-  height: 40vh;
+
+#game_video {
+  width: 80%;
 }
 
 
-#flashcard_video{
-  width: 20%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform : translate(-50%,-50%);
-  transform : translate(-50%,-50%); 
 
+
+#flashcard_video{
+  width: 30%;
 }
 
 

@@ -15,7 +15,7 @@ class Videos extends React.Component {
               <div id="videoTitle">
                   <h1>Videos</h1>
               </div>
-
+            <div id="game_container">
               <div id="game_video">
                     <Player
                     ref={c => {
@@ -32,6 +32,8 @@ class Videos extends React.Component {
                         type="video/mp4"
                         />
                     </Player>
+            </div>
+                
             </div>
             <br/>
                 <br/>
