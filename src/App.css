@@ -9,7 +9,7 @@
 
 /* Navbar */
 #navbar{
-  margin-bottom: -15px;
+  /* margin-bottom: -15px; */
   background-color: rgba(48, 228, 228, 0.678);
   font-family: pokemon;
 }
@@ -31,7 +31,7 @@
   background-size: cover;
   position: relative;
   margin: 0;
-  margin-bottom: -26px;
+  /* margin-bottom: -15px; */
 }
 
 .banner-text{
@@ -53,8 +53,6 @@
 #qrs {
   padding-bottom: 13vh;
   background-color: white;
-
-/* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%2370bad6' fill-opacity='0.95'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E"); */
 }
 
 .qr{
@@ -63,8 +61,8 @@
 }
 
 #qrs > h1 {
-  padding: 8vh 0 8vh 0;
-  font-size: 5vh;
+  padding: 4vh 0 3vh 0;
+  font-size: 4vh;
 }
 
 .qrContainer{
@@ -80,8 +78,8 @@
 }
 
  #qrtitile {
+  margin: 0;
   position: relative;
-  padding: 0.1em 0.1em;
   background: rgba(48, 228, 228, 0.678);;
   color: black;
   font-family: pokemon;
