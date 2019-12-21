@@ -1,6 +1,7 @@
 import React from 'react';
 import { Player, ControlBar, PlaybackRateMenuButton } from "video-react";
 import "video-react/dist/video-react.css"; // import css
+import Flexbox from 'flexbox-react';
 
 class Videos extends React.Component {
     componentDidMount() {
@@ -9,14 +10,17 @@ class Videos extends React.Component {
     }
     render() {
       return (
-           
-          <div className="video" id="videos">
-
+      
+      
+      <div>
               <div id="videoTitle">
                   <h1>Videos</h1>
               </div>
 
-              <div id="game_video">
+          <Flexbox className="video" id="videos" flexDirection='column' alignItems='center'>
+
+         
+              <div id="game_video" >
                     <Player
                     ref={c => {
                         this.player = c;
@@ -33,16 +37,8 @@ class Videos extends React.Component {
                         />
                     </Player>
             </div>
-            <br/>
-                <br/>
-                <br/>
-                <br/> <br/>
-                <br/> <br/>
-                <br/>
-           
-
-
-            <div id="flashcard_video_container">
+                
+       
 
               <div id="flashcard_video">
                     <Player
@@ -62,13 +58,14 @@ class Videos extends React.Component {
                     </Player>
               </div>
                 
-            </div>
-
+       
                 <br/>
                 <br/>
                 <br/>
 
-          </div>
+          </Flexbox>
+      </div>
+           
  
         
       );

@@ -1,22 +1,33 @@
+body{
+  background:
+  linear-gradient(to bottom left,transparent 49.8%,#E0E6E5 50%) top   /100% 35%,
+  linear-gradient(to top    left,transparent 49.8%,#E0E6E5 50%) bottom/100% 35%,
+  linear-gradient(rgb(230, 226, 224),#E0E6E5) center/100% 30%;
+background-repeat:no-repeat;
+}
+
 .App {
  text-align: center;
  margin: 0%;
  padding: 0;
+ font-family: 'Courier New', Courier, monospace;
 }
 
 
 
 /* Navbar */
 #navbar{
-  margin-bottom: -15px;
-  background-color: rgba(48, 228, 228, 0.678);
+  /* margin-bottom: -15px; */
+  /* background-color: rgba(48, 228, 228, 0.678); */
+  background-color: rgb(59, 5, 146);
   font-family: pokemon;
 }
 
 .inline-block-element{
   display: inline-block;      
   padding: 2px 40px;
-  color: rgb(107, 9, 172);
+  /* color: rgb(107, 9, 172); */
+  color: rgb(229, 243, 30);
   font-weight: normal;
   font-size: 2vh;
 }
@@ -30,7 +41,7 @@
   background-size: cover;
   position: relative;
   margin: 0;
-  margin-bottom: -26px;
+  /* margin-bottom: -15px; */
 }
 
 .banner-text{
@@ -49,21 +60,14 @@
 
 
 /* QR */
-#qrs {
-  padding-bottom: 13vh;
-  background-color: white;
-
-/* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%2370bad6' fill-opacity='0.95'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E"); */
-}
-
 .qr{
   width: 30vh;
   height: 30vh;
 }
 
 #qrs > h1 {
-  padding: 8vh 0 8vh 0;
-  font-size: 5vh;
+  padding: 4vh 0 2vh 0;
+  font-size: 2.5vh;
 }
 
 .qrContainer{
@@ -74,51 +78,64 @@
 }
 
 .qrContainer > h3 {
-  padding-bottom: 6vh;
+  padding-bottom: 3vh;
   font-size: 4vh;
 }
 
  #qrtitile {
+  margin: 0;
   position: relative;
-  padding: 0.1em 0.1em;
-  background: rgba(48, 228, 228, 0.678);;
-  color: black;
+  background: rgb(229, 243, 30);;
+  color: navy;
   font-family: pokemon;
+  padding: 5vh 0 2vh 0;
 }
 
 #qrtitle > h1 {
-  font-size: 1vh;
+  font-size: 3vh;
 }
 
 .btn {
   width: 100%;
+  height: 8vh;
+  border-radius: 9px;
   font-size: 3vh;
+  margin: 3.2vh 0;
+  background-color: black;
+  color: white;
 }
 
-
-
+#googleplay_logo {
+  width: 30vh;
+}
 
 /* videos */
+
+#videoTitle{
+  width: 100%;
+}
 #videoTitle > h1 {
-  padding: 8vh 0 8vh 0;
-  font-size: 5vh;
+  background: rgb(229, 243, 30);;
+  color: navy;
+  padding: 4vh 0 2vh 0;
+  font-size: 2.5vh;
   font-family: pokemon;
+  margin-bottom: 0;
 }
 
-#flashcard_video_container{
-  position: relative;
-  height: 40vh;
+
+#game_video {
+  width: 80%;
+  margin: 4vh;
+  border-radius: 10px;
 }
+
+
 
 
 #flashcard_video{
-  width: 20%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform : translate(-50%,-50%);
-  transform : translate(-50%,-50%); 
-
+  width: 30%;
+  margin-top: 3vh;
 }
 
 
@@ -134,12 +151,12 @@
 }
 
 #title > h1{
-    margin: 0;
-    padding:10vh;
-    padding: 8vh 0 8vh 0;
-    font-size: 5vh;
-    background-color:rgba(48, 228, 228, 0.678);;
-    color: white;
+  background: rgb(229, 243, 30);;
+  color: navy;
+  padding: 3vh 0 1.8vh 0;
+  font-size: 2.5vh;
+  font-family: pokemon;
+  margin-bottom: 0;
 }
 
 .points > h2 {
