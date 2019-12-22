@@ -16,7 +16,7 @@ class Header extends React.Component {
             <div id="header" style={imageStyle}>
             
                 <div className="row banner">
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" id="logo" />
                     </div>
                     <p className="scrolldown">
                         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
