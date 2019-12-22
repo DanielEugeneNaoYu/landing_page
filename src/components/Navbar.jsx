@@ -11,11 +11,14 @@ class Navbar extends React.Component{
                 <AnchorLink href="#qrs">
                     <p className='inline-block-element'>Downloads</p>
                     </AnchorLink>
+                <AnchorLink href="#twitterContainer">
+                    <p className='inline-block-element'>News</p>
+                </AnchorLink>
                 <AnchorLink href="#videos">
-                    <p className='inline-block-element'>Videos</p>
+                    <p className='inline-block-element'>About</p>
                 </AnchorLink>
                 <AnchorLink href="#about">
-                    <p className='inline-block-element'>About</p>
+                    <p className='inline-block-element'>Team</p>
                 </AnchorLink>
             </div>
         );

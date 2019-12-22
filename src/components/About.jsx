@@ -7,7 +7,7 @@ class About extends React.Component {
         return (
             <div id="about">
                 <div id="title">
-                    <h1>What is LEXIVERSE?</h1>
+                    <h1>Team LEXIVERSE</h1>
                 </div>
 
                 <div id="aboutContainer">

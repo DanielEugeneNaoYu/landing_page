@@ -14,14 +14,14 @@ class Header extends React.Component {
         
         return (
             <div id="header" style={imageStyle}>
-                <header id="home">
+            
                 <div className="row banner">
                 <img src={logo} alt="logo" />
                     </div>
                     <p className="scrolldown">
                         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
                     </p>
-                </header>
+              
             </div>
         );
     }
