@@ -21,7 +21,7 @@ class QR extends React.Component{
                     <img className='qr' src={qr1} alt="game"/>
 
                     <div id="download_game">
-                        <a href="https://eugenekim000.itch.io/lexiverse">
+                        <a href="https://eugenekim000.itch.io/lexiverse?secret=7UDKGcV6CucOZoqcNY0asOqbV0">
                              <button className="btn"><i className="fa fa-download"></i> Download</button>
                         </a>
                     </div>
