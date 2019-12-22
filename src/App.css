@@ -134,23 +134,21 @@ body{
 
 
 #videos {
-  padding: 0 10vw;
+  padding: 0 5vw;
 }
 
 .video_containter{
   width: 100%;
+  margin-top: 8vh;
 }
 
 
 .video_text{
   width: 40%;
   margin-left: 8vh;
+
 }
 
-
-.video_text > h2 {
-  margin: 40% 0 0 0;
-}
 
 #videoTitle{
   width: 100%;
@@ -181,7 +179,7 @@ body{
 }
 
 #flashcard_video{
-  width: 27%;
+  width: 32%;
   margin: 3vh 0 0 25vh;
 }
 
