@@ -10,7 +10,7 @@ class Twitter extends React.Component {
                      <TwitterTimelineEmbed
                         sourceType="profile"
                         screenName="lexi_verse"
-                        options={{width: 570, height: 400}}
+                        options={{width: 470, height: 600}}
                      />
                 </div>
         );

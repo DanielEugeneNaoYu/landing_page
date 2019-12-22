@@ -17,7 +17,7 @@ class App extends React.Component {
         <QR />
         <Videos />
         <Twitter />
-        <About />
+        {/* <About /> */}
       </div>
     )
   }
