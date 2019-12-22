@@ -18,9 +18,9 @@ class Videos extends React.Component {
                 <Flexbox className="video" id="videos" flexDirection='column' alignItems='center'>
                 
                     <Flexbox className='video_containter'>
-                            <Flexbox className='video_text' flexDirection="column">
+                            <Flexbox className='video_text' flexDirection="column" justifyContent="center">
                                 <h2>GAME</h2>
-                                <h4>interactive and fast paced game that will test gaming and language ability</h4>
+                                <h4>A interactive Japanese language learning game with multiple fast-paced game modes to keep the player engaged!</h4>
                             </Flexbox>
 
                             <Flexbox className='video_player'　id="game_video">
@@ -64,7 +64,7 @@ class Videos extends React.Component {
                             </Flexbox>
                             <Flexbox className='flashcard_text' flexDirection="column">
                                 <h2>Flashcards</h2>
-                                <h4>accompanying flashcard app to supplement learning</h4>
+                                <h4>Don't forget to check out the accompaying flashcard app to supplement the learning material! Comes with various types of queries, allowing the user to quickly narrow into their weak points!</h4>
                             </Flexbox>
                     </Flexbox>
             </Flexbox>
