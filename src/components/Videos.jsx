@@ -14,29 +14,43 @@ class Videos extends React.Component {
       
       <div>
               <div id="videoTitle">
-                  <h1>Videos</h1>
+                  <h1>What is LEXIVERSE ?</h1>
               </div>
 
           <Flexbox className="video" id="videos" flexDirection='column' alignItems='center'>
+          
+            <Flexbox className='video_containter' justifyContent='flex-end'>
+                    <Flexbox className='video_text' flexDirection="column">
+                        <h2>GAME</h2>
+                        <h4>interactive and fast paced game that will test gaming and language ability</h4>
+                    </Flexbox>
 
+                    <Flexbox className='video_player'　id="game_video">
+                            <Player
+                            ref={c => {
+                                this.player = c;
+                            }}
+                            playsInline
+                            autoPlay='true'
+                            >
+                            <ControlBar>
+                                <PlaybackRateMenuButton order={7} rates={[2, 1.5, 1.0, 0.5]} />
+                            </ControlBar>
+                            <source
+                                src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                                type="video/mp4"
+                                />
+                            </Player>
+                    </Flexbox>
+            </Flexbox>
+
+
+
+
+          
          
-              <div id="game_video" >
-                    <Player
-                    ref={c => {
-                        this.player = c;
-                    }}
-                    playsInline
-                    autoPlay='true'
-                    >
-                    <ControlBar>
-                        <PlaybackRateMenuButton order={7} rates={[2, 1.5, 1.0, 0.5]} />
-                    </ControlBar>
-                    <source
-                        src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-                        type="video/mp4"
-                        />
-                    </Player>
-            </div>
+          
+          
                 
        
 

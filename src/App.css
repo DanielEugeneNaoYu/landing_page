@@ -2,8 +2,9 @@ body{
   background:
   linear-gradient(to bottom left,transparent 49.8%,#E0E6E5 50%) top   /100% 35%,
   linear-gradient(to top    left,transparent 49.8%,#E0E6E5 50%) bottom/100% 35%,
-  linear-gradient(rgb(230, 226, 224),#E0E6E5) center/100% 30%;
-background-repeat:no-repeat;
+  linear-gradient(#E0E6E5,#E0E6E5) center/100% 30%;
+  background-repeat:no-repeat;
+  background-color: rgb(219, 235, 240);
 }
 
 .App {
@@ -111,8 +112,24 @@ background-repeat:no-repeat;
 
 /* videos */
 
+.video_containter {
+  width: 100%;
+}
+
+.video_text{
+  width: 40%;
+  margin-left: 8vh;
+}
+
+
+.video_text > h2 {
+  margin: 40% 0 0 0;
+}
+
 #videoTitle{
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 #videoTitle > h1 {
   background: rgb(229, 243, 30);;
@@ -139,11 +156,6 @@ background-repeat:no-repeat;
 }
 
 
-/* tweet */
-
-#twitterContainer{
-  padding: 10vh;
-}
 
 /* about */
 #about{
@@ -169,13 +181,17 @@ background-repeat:no-repeat;
   margin: 0;
   padding: 2vh 0 8vh 0
 }
-/* 
-background:
-linear-gradient(27deg, #89d0e6 5px, transparent 5px) 0 5px,
-linear-gradient(207deg, #86e7b2 5px, transparent 5px) 10px 0px,
-linear-gradient(27deg, rgb(46, 190, 235) 5px, transparent 5px) 0px 10px,
-linear-gradient(207deg, rgb(164, 186, 247) 5px, transparent 5px) 10px 5px,
-linear-gradient(90deg, #73e4ec 10px, transparent 10px),
-linear-gradient(#c2f6fd 25%, #51b4ec 25%, #52e4dd 50%, transparent 50%, transparent 75%, #77c7e7 75%, #d4e5ec);
-background-color: rgb(225, 247, 176);
-background-size: 20px 20px;  */
+
+/* twitter */
+#twitterContainer{
+  margin-bottom: 8vh;
+}
+#twitterContainer > h1 {
+  width: 100%;
+  background: rgb(229, 243, 30);
+  color: navy;
+  padding: 3vh 0 1.8vh 0;
+  font-size: 2.5vh;
+  font-family: pokemon;
+  margin-bottom: 5vh;
+}
