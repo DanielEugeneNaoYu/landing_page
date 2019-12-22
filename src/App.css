@@ -112,9 +112,10 @@ body{
 
 /* videos */
 
-.video_containter {
+.video_containter{
   width: 100%;
 }
+
 
 .video_text{
   width: 40%;
@@ -142,17 +143,25 @@ body{
 
 
 #game_video {
-  width: 80%;
+  width: 50%;
   margin: 4vh;
   border-radius: 10px;
 }
 
 
-
+.flashcard_container{
+  width: 100%;
+  margin-bottom: 4vh;
+}
 
 #flashcard_video{
-  width: 30%;
-  margin-top: 3vh;
+  width: 20%;
+  margin: 3vh 0 0 16vh;
+}
+
+
+.flashcard_text {
+ margin: auto;
 }
 
 
