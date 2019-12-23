@@ -1,5 +1,4 @@
 import React from 'react';
-// import Img from 'react-image'
 import Background from '../images/space.jpg'
 import logo from '../images/logo_white.png'
 
