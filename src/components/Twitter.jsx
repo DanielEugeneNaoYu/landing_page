@@ -1,5 +1,6 @@
 import React from 'react'
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
+// import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
 
 class Twitter extends React.Component {
@@ -10,7 +11,11 @@ class Twitter extends React.Component {
                      <TwitterTimelineEmbed
                         sourceType="profile"
                         screenName="lexi_verse"
-                        options={{width: 470, height: 600}}
+                        options={{
+                            tweetLimit: "10",
+                            width: "30%",
+                            height: "30%"
+                          }}
                      />
                 </div>
         );
