@@ -51,7 +51,7 @@ class Videos extends React.Component {
                                         this.player = c;
                                     }}
                                     playsInline
-                                    autoPlay='true'
+                                    // autoPlay='true'
                                     >
                                     <ControlBar>
                                         <PlaybackRateMenuButton order={7} rates={[2, 1.5, 1.0, 0.5]} />
