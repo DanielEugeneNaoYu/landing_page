@@ -57,7 +57,6 @@ class Videos extends React.Component {
                                         <PlaybackRateMenuButton order={7} rates={[2, 1.5, 1.0, 0.5]} />
                                     </ControlBar>
                                     <source
-                                        // src="https://lexiverse-videos.s3-ap-northeast-1.amazonaws.com/demo.mp4"
                                         src="https://lexiverse-videos.s3-ap-northeast-1.amazonaws.com/flashcard_demo.mp4"
                                         type="video/mp4"
                                         />
