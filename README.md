@@ -1,3 +1,10 @@
+This is a landing page of gamification language learning plat form project.
+Deployed on Heroku. http://lexiverse.herokuapp.com/
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
