@@ -1,7 +1,5 @@
 import React from 'react'
-// import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import { TwitterTimelineEmbed} from 'react-twitter-embed';
-
 
 class Twitter extends React.Component {
     render(){
@@ -13,17 +11,11 @@ class Twitter extends React.Component {
                         className="twitter"
                         sourceType="profile"
                         screenName="lexi_verse"
-                        // options={{
-                        //     tweetLimit: "10",
-                        //     width: "30%",
-                        //     height: "30%"
-                        //   }}
                      />
                 </div>
             </div>
         );
     }
-
 }
 
 export default Twitter; 
