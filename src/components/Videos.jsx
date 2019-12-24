@@ -1,7 +1,6 @@
 import React from 'react';
 import { Player, ControlBar, PlaybackRateMenuButton } from "video-react";
 import "video-react/dist/video-react.css";
-import Flexbox from 'flexbox-react';
 
 class Videos extends React.Component {
     componentDidMount() {
@@ -46,6 +45,10 @@ class Videos extends React.Component {
 
                 <div className='flashcard_container'>
 
+                        <div className='flashcard_text' flexDirection="column">
+                            <h2>Flashcards</h2>
+                            <h4>Don't forget to check out the accompaying flashcard app to supplement the learning material! Comes with various types of queries, allowing the user to quickly narrow into their weak points!</h4>
+                        </div>
                         <div className='video_player'　id="flashcard_video">
                                 <Player
                                 ref={c => {
@@ -62,10 +65,6 @@ class Videos extends React.Component {
                                     type="video/mp4"
                                     />
                                 </Player>
-                        </div>
-                        <div className='flashcard_text' flexDirection="column">
-                            <h2>Flashcards</h2>
-                            <h4>Don't forget to check out the accompaying flashcard app to supplement the learning material! Comes with various types of queries, allowing the user to quickly narrow into their weak points!</h4>
                         </div>
                 </div>
         </div>
