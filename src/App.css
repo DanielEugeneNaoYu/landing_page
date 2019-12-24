@@ -60,7 +60,7 @@ body{
 }
 
 #logo{
-  max-width:40%;
+  max-width:50%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -84,8 +84,8 @@ body{
 
 /* QR */
 .qr{
-  width: 30vh;
-  height: 30vh;
+  width: 20vh;
+  height: 20vh;
 }
 
 #qrs > h1 {
@@ -93,12 +93,18 @@ body{
   font-size: 2.5vh;
 }
 
-/* .qrContainer{
-  margin: 5%;
+.qrContainer{
+  /* margin: 5%;
   display: inline-block;      
   padding: 2px 40px;
-  font-size: 1vh;
-} */
+  font-size: 1vh; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 3vh 2vh;
+}
 
 .qrContainer > h3 {
   padding-bottom: 3vh;
@@ -119,17 +125,18 @@ body{
 }
 
 .btn {
-  width: 100%;
-  height: 8vh;
+  width: 30vh;
+  height: 9vh;
   border-radius: 9px;
   font-size: 3vh;
-  margin: 3.2vh 0;
+  margin: 3.5vh 0;
   background-color: black;
   color: white;
 }
 
 #googleplay_logo {
   width: 30vh;
+  align-content: center;
 }
 
 /* videos */
@@ -139,15 +146,24 @@ body{
   padding: 0 5vw;
 }
 
-.video_containter{
-  width: 100%;
-  margin-top: 8vh;
+.video_containter, .flashcard_container{
+  /* width: 100%; */
+  margin: 8vh ;
+  /* display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
 }
 
 
-.video_text{
-  /* width: 40%; */
-  /* margin-left: 8vh; */
+.video_text > h2, .flashcard_text> h2 {
+  font-size: 4vw;
+  margin: auto;
+}
+
+.video_text > h4, .flashcard_text > h4 {
+  font-size: 2.5vw;
+  margin: auto;
 
 }
 
@@ -170,7 +186,7 @@ body{
 
 
 #game_video {
-  width: 50%;
+  width: 90%;
   margin: 4vh;
   border-radius: 10px;
 }
@@ -178,18 +194,23 @@ body{
 
 .flashcard_container{
   width: 100%;
-  margin: 8vh 0;
+  /* margin: 8vh 0; */
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 #flashcard_video{
   width: 32%;
-  margin: 3vh 0 0 25vh;
+  margin: 4vh 0 0 0;
 }
 
 
 .flashcard_text {
  margin: auto;
- width: 40%;
+ /* width: 40%; */
 }
 
 
@@ -221,9 +242,11 @@ body{
 
 /* twitter */
 #twitterContainer{
-  margin: 8vh 0;
+  margin: 3vh 20vw;
+  /* width: 60vw; */
 }
-#twitterContainer > h1 {
+
+.twitter > h1 {
   width: 100%;
   background: rgb(229, 243, 30);
   color: navy;
@@ -232,7 +255,6 @@ body{
   font-family: pokemon;
   margin-bottom: 5vh;
 }
-
 
 
 /* video float/ */
@@ -265,20 +287,28 @@ body{
 
 
 @media only screen and (max-width: 600px) {
-  .vt > h2{
+  .vt > h2, .flashcard_text > h2{
     width: 100%;
     font-size: 7vw;
     margin: 0 0 1vh 0;
   }
 
-  .vt > h4 {
+  .vt > h4, .flashcard_text > h4 {
   width: 100%;
   font-size: 5vw;
   margin: 0;
 }
 
-.vp{
-  
+
+#flashcard_video{
+  width: 60%;
+  margin: 4vh 0 0 0;
 }
+
+
+#game_video {
+  width: 90vw;
+}
+
 
 }
