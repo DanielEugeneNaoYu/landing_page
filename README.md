@@ -10,8 +10,7 @@ JavaScript, React, CSS, Heroku
 
 ## This repository is for a landing page of gamification language learning plat form project.
 
-
-![picture]("src/images/landing page.png")
+<img width="492" alt="landing page" src="https://user-images.githubusercontent.com/45124890/71433093-52cfac80-2720-11ea-8380-e8421bcf7134.png">
 
 
 
