@@ -1,6 +1,5 @@
 ## This repository is for a landing page of gamification language learning plat form project.
 
-
 Lexiverse is a gamification language learning platform.
 It has three main parts. Game, companion mobile application, and landing page.
 This repo is for the landing page.
@@ -12,6 +11,7 @@ JavaScript, React, CSS, Heroku
 ## This repository is for a landing page of gamification language learning plat form project.
 
 
+![picture]("src/images/landing page.png")
 
 
 
