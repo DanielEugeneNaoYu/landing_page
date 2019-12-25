@@ -1,5 +1,9 @@
 ## This repository is for a landing page of gamification language learning plat form project.
 
+<p align="center">
+<img width="300" alt="landing page" src="https://user-images.githubusercontent.com/45124890/71433197-0b95eb80-2721-11ea-9e3c-fd55ed1eeb34.png">
+</p>
+
 Lexiverse is a gamification language learning platform.
 It has three main parts. Game, companion mobile application, and landing page.
 This repo is for the landing page.
@@ -7,12 +11,8 @@ It is deployed [here](http://lexiverse.herokuapp.com/).
 
 ## Tech I used
 JavaScript, React, CSS, Heroku
+ge learning plat form project.
 
-## This repository is for a landing page of gamification language learning plat form project.
-
-<p align="center">
-<img width="300" alt="landing page" src="https://user-images.githubusercontent.com/45124890/71433197-0b95eb80-2721-11ea-9e3c-fd55ed1eeb34.png">
-</p>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
