@@ -10,9 +10,9 @@ JavaScript, React, CSS, Heroku
 
 ## This repository is for a landing page of gamification language learning plat form project.
 
-<img width="492" alt="landing page" src="https://user-images.githubusercontent.com/45124890/71433093-52cfac80-2720-11ea-8380-e8421bcf7134.png">
-
-
+<p align="center">
+<img width="300" alt="landing page" src="https://user-images.githubusercontent.com/45124890/71433197-0b95eb80-2721-11ea-9e3c-fd55ed1eeb34.png">
+</p>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
